@@ -9,12 +9,12 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.post("/sign", (req, res) => {
-  const email = "dener@vidafullstack.com.br";
+  const email = "lukasthi7@gmail.com";
   const password = "123";
 
   if (req.body.email === email && req.body.password === password) {
     const data = {
-      nome: "Dener Troquatte",
+      nome: "Lukas Thiago",
       email,
       role: ["sysAdmin"],
     };
